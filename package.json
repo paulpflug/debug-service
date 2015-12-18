@@ -1,0 +1,28 @@
+{
+  "name": "debug-service",
+  "main": "./lib/debug-service",
+  "version": "0.0.0",
+  "description": "provides a debugger as a service for other atom packages",
+  "keywords": ["atom","debug","service"],
+  "repository": "https://github.com/paulpflug/debug-service",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=0.174.0 <2.0.0"
+  },
+  "providedServices": {
+    "debug": {
+      "description": "debugs in dev-mode",
+      "versions": {
+        "0.0.1": "provideDebug"
+      }
+    }
+  },
+  "consumedServices": {
+    "autoreload": {
+      "versions": {
+        "^0.0.1": "consumeAutoreload"
+      }
+    }
+  },
+  "readmeFilename": "README.md"
+}
