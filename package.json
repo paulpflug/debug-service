@@ -1,9 +1,13 @@
 {
   "name": "debug-service",
   "main": "./lib/debug-service",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "provides a debugger as a service for other atom packages",
-  "keywords": ["atom","debug","service"],
+  "keywords": [
+    "atom",
+    "debug",
+    "service"
+  ],
   "repository": "https://github.com/paulpflug/debug-service",
   "license": "MIT",
   "engines": {
